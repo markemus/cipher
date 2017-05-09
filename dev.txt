@@ -1,0 +1,23 @@
+4/15/2017
+
+A couple of days of work. So far:
+
+2 ciphers: at_bash, caesar
+Basic gui
+Accepts input and parses it to decrypt using specified algorithm.
+
+Currently cannot accept params (so caesar doesn't work). 
+Also takes raw data for method names instead of using a dict to translate- bad idea!
+
+Next: dict of available methods, then accept params
+
+4/18/2017
+
+Data now validated. Methods are only allowed if they're in array "methods".
+Params now accepted. Can be entered either before or after method name.
+
+Project structure complete. 
+
+Added Vigenere cipher: however, still need decryption.
+
+Next: add more ciphers. (inc. Vig decrypt)
