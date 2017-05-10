@@ -10,20 +10,20 @@ running the string through again, and caesar by reversing the shift.
 
 The following codes are recognized:
 
-Cipher names:
-at_bash
-caesar
+Cipher names:  
+at_bash  
+caesar  
 
-Strings:
+Strings:  
 "string goes here"
 
-Pipes:
+Pipes:  
 |
 
-Parameters (for caesar):
+Parameters (for caesar):  
 (5)
 
-Example:
+Example:  
 "helloworld" => helloworld  
 "helloworld" | at_bash => svooldliow  
 "helloworld" | at_bash | caesar (5) => xattqiqntb  
