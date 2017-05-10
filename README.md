@@ -24,9 +24,9 @@ Parameters (for caesar):
 (5)
 
 Example:
-"helloworld" => helloworld
-"helloworld" | at_bash => svooldliow
-"helloworld" | at_bash | caesar (5) => xattqiqntb
+"helloworld" => helloworld  
+"helloworld" | at_bash => svooldliow  
+"helloworld" | at_bash | caesar (5) => xattqiqntb  
 
 # Installation
 
